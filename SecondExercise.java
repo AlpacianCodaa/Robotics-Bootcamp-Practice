@@ -1,3 +1,4 @@
+
 public class SecondExercise {
     public static void main(String[] args){
         int x = 4;
