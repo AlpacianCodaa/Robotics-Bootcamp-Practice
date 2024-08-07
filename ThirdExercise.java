@@ -1,6 +1,6 @@
 public class ThirdExercise {
     public static void main(String[] args){
-        int x = 70;
+        double x = 83;
         if (x < 100) {
             x += 50;
         }
