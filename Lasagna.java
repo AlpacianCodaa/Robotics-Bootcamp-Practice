@@ -11,12 +11,12 @@ public class Lasagna {
         return MINUTES_IN_OVEN - timeSpentInOven;
     }
 
-    public int preperationTimeInMiutes(int amountOfLayers){
+    public static int preperationTimeInMinutes(int amountOfLayers){
         return amountOfLayers * 2;
     } 
 
     //Part Three
-    public double totalTimeInMinutes(int amountOfLayers, double timeSpentInOven) {
-        return (amountOfLayers * 2) + timeSpentInOven;
+    public double totalTimeInMinutes(int layers, double timeSpentInOven) {
+        return preperationTimeInMinutes(layers) + timeSpentInOven;
     }
 }
